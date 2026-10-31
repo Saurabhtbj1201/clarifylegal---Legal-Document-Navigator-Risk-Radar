@@ -4,7 +4,7 @@
 [![Major League Hacking](https://img.shields.io/badge/MLH-Major%20League%20Hacking-red?style=for-the-badge&logo=majorleaguehacking&logoColor=white)](https://mlh.io/)
 [![Organized by South Asian University](https://img.shields.io/badge/Organized%20by-South%20Asian%20University-002147?style=for-the-badge)](https://sau.int/)
 [![OCT 31 In Person](https://img.shields.io/badge/OCT%2031-In%20Person-138808?style=for-the-badge)](https://sau.int/)
-[![Live Demo on Render](https://img.shields.io/badge/Live%20Demo-Render%20Cloud-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://lexishield-ff6f.onrender.com/)
+[![Live Demo on Render](https://img.shields.io/badge/Live%20Demo-Render%20Cloud-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://clarifylegal-ho6m.onrender.com)
 
 <a href="https://mlh.io/" target="_blank">
   <img src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.svg" height="28" alt="Major League Hacking" />
@@ -14,13 +14,13 @@
   <strong>South Asian University</strong>
 </a>
 
-# ⚖️ [ClarifyLegal](https://lexishield-ff6f.onrender.com/)
+# ⚖️ [ClarifyLegal](https://clarifylegal-ho6m.onrender.com)
 ### GenAI Legal Document Navigator, Risk Radar & Attorney Prep Platform
 **Hacktoberfest Hack Day New Delhi x South Asian University | Major League Hacking (MLH)**  
 **OCT 31 | In Person — Organized by South Asian University**  
 *Theme / Track: AI for Legal Assistance & Access*
 
-[![Live URL](https://img.shields.io/badge/Live%20Platform-ClarifyLegal%20on%20Render-blue?style=flat-square&logo=googlechrome&logoColor=white)](https://lexishield-ff6f.onrender.com/)
+[![Live URL](https://img.shields.io/badge/Live%20Platform-ClarifyLegal%20on%20Render-blue?style=flat-square&logo=googlechrome&logoColor=white)](https://clarifylegal-ho6m.onrender.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-22.x-green.svg)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-19.x-blue.svg)](https://react.dev/)
@@ -35,7 +35,7 @@
 
 ## 🌐 Live Deployment & Quick Links
 
-- 🚀 **Live Production Application:** [https://lexishield-ff6f.onrender.com/](https://lexishield-ff6f.onrender.com/)
+- 🚀 **Live Production Application:** [https://clarifylegal-ho6m.onrender.com](https://clarifylegal-ho6m.onrender.com)
 - 🏆 **Hackathon:** **Hacktoberfest Hack Day New Delhi x South Asian University**
 - 🏛️ **Organized by:** South Asian University (New Delhi)
 - 🛡️ **League / Community:** Major League Hacking (MLH)
@@ -49,9 +49,9 @@
 
 Legal documents (such as [residential apartment leases](https://en.wikipedia.org/wiki/Lease), freelance consulting agreements, non-disclosure agreements ([NDAs](https://en.wikipedia.org/wiki/Non-disclosure_agreement)), and corporate employment contracts) are deliberately dense, packed with confusing legalese, and structurally skewed toward drafting institutions. Everyday citizens, tenants, and independent contractors routinely sign away fundamental rights, accept uncapped indemnification, or forfeit accrued earnings without realizing what they agreed to.
 
-**[ClarifyLegal](https://lexishield-ff6f.onrender.com/)** bridges the justice and legal literacy gap. Powered by [Google Gemini](https://ai.google.dev/) and an intelligent deterministic legal heuristic engine, ClarifyLegal simplifies complex agreements, spots predatory traps using an interactive **0–100 Risk Radar**, visualizes contract version modifications with **Redlining**, answers questions with **grounded verbatim citations**, and generates a **5-question Attorney Prep Kit** to save on billable legal fees.
+**[ClarifyLegal](https://clarifylegal-ho6m.onrender.com)** bridges the justice and legal literacy gap. Powered by [Google Gemini](https://ai.google.dev/) and an intelligent deterministic legal heuristic engine, ClarifyLegal simplifies complex agreements, spots predatory traps using an interactive **0–100 Risk Radar**, visualizes contract version modifications with **Redlining**, answers questions with **grounded verbatim citations**, and generates a **5-question Attorney Prep Kit** to save on billable legal fees.
 
-> **Important Legal Disclaimer:** [ClarifyLegal](https://lexishield-ff6f.onrender.com/) is an educational, analytical, and navigational tool. It provides informative legal document assistance and does not replace licensed legal representation or create an attorney-client relationship.
+> **Important Legal Disclaimer:** [ClarifyLegal](https://clarifylegal-ho6m.onrender.com) is an educational, analytical, and navigational tool. It provides informative legal document assistance and does not replace licensed legal representation or create an attorney-client relationship.
 
 ---
 
@@ -318,8 +318,8 @@ Exclusive Challenge/
 #### Installation Steps
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Saurabhtbj1201/LexiShield-Legal-AI-Platform.git
-cd LexiShield-Legal-AI-Platform
+git clone https://github.com/Saurabhtbj1201/clarifylegal---Legal-Document-Navigator-Risk-Radar.git
+cd clarifylegal---Legal-Document-Navigator-Risk-Radar
 
 # 2. Install dependencies for root, client, and server
 npm run install:all
@@ -341,8 +341,8 @@ npm run dev
 
 | Endpoint | Method | Description |
 | :--- | :--- | :--- |
-| [`/api/health`](https://lexishield-ff6f.onrender.com/api/health) | `GET` | Health check, security status & Gemini configuration check |
-| [`/api/presets`](https://lexishield-ff6f.onrender.com/api/presets) | `GET` | Retrieve list of curated sample contracts |
+| [`/api/health`](https://clarifylegal-ho6m.onrender.com/api/health) | `GET` | Health check, security status & Gemini configuration check |
+| [`/api/presets`](https://clarifylegal-ho6m.onrender.com/api/presets) | `GET` | Retrieve list of curated sample contracts |
 | `/api/analyze` | `POST` | Analyze contract text, compute risk radar & explain clauses |
 | `/api/upload` | `POST` | Multipart upload (PDF, TXT, MD) and automated analysis |
 | `/api/compare` | `POST` | Side-by-side contract comparison and risk delta calculation |
@@ -380,9 +380,9 @@ npm run dev
 <p align="center">
   <strong>Made with ❤️ by <a href="https://github.com/Saurabhtbj1201">Saurabh Kumar</a></strong>
   <br>
-  ⭐ Star this repo on <a href="https://github.com/Saurabhtbj1201/LexiShield-Legal-AI-Platform">GitHub</a> if you find it helpful!
+  ⭐ Star this repo on <a href="https://github.com/Saurabhtbj1201/clarifylegal---Legal-Document-Navigator-Risk-Radar">GitHub</a> if you find it helpful!
 </p>
 
-[![Repo Views](https://komarev.com/ghpvc/?username=Saurabhtbj1201&style=flat-square&color=red)](https://github.com/Saurabhtbj1201/LexiShield-Legal-AI-Platform)
+[![Repo Views](https://komarev.com/ghpvc/?username=Saurabhtbj1201&style=flat-square&color=red)](https://github.com/Saurabhtbj1201/clarifylegal---Legal-Document-Navigator-Risk-Radar)
 
 </div>
